@@ -1,34 +1,49 @@
+
 ---
-title: "My Name"       # the title of the index page
+title: "Arman Dashti"
 about:
-  # template types
-  #template: jolla
   template: trestles
-  #template: broadside
-  # image details
-  image: files/profile-pic.jpg
-  image-width: 20em            # to adjust size
-  image-shape: round           # to make round
-  
-  links:
-    # add others
-    - icon: linkedin
-      href: https://www.linkedin.com/school/claremont-mckenna-college/posts/?feedView=all
-    - icon: twitter-x
-      href: https://x.com/CMCnews
-
+  image: files/profile-pic.png
+  image-width: 20em
+  image-shape: round
 ---
 
-I am a ... blah blah
+I'm a senior at Claremont McKenna College studying Economics with a Data Science sequence. I'm interested in investing, financial markets, and understanding how businesses create value, particularly at the intersection of technology and finance.
+
+At CMC, I'm the CEO of Sagehen Capital Management, a student-run investment fund, and the founder and president of the Claremont Bitcoin Club. I've also gained experience across fundamental investment research, quantitative investing, and corporate finance through internships at Point72, AQR Capital Management, and Churchill Downs.
+
+Outside of academics and investing, I enjoy playing soccer, traveling, and meeting people with different backgrounds and perspectives.
 
 ## Education
 
-Institution | City, State
-B.A in Degree | start - finish
+**Claremont McKenna College** | Claremont, California
 
-## Experience
+B.A. in Economics, Data Science sequence | Class of 2027
 
-Organization A | Title | start - finish
+## Professional Experience
 
-Organization b | Title | start - finish
+**AQR Capital Management** | Specialized Investments Group Intern | Summer 2026
 
+Worked on research and analytical projects involving tax-aware equity strategies, portfolio constraints, and quantitative modeling.
+
+**Point72** | Market Intelligence Intern | Summer 2025
+
+Conducted data-driven investment research across the industrials and technology sectors.
+
+**Churchill Downs Incorporated** | Corporate FP&A Intern | Summer 2024
+
+Supported financial planning, performance reporting, and investor relations analysis.
+
+## Leadership & Involvement
+
+**Sagehen Capital Management** | Chief Executive Officer
+
+Lead a student-managed investment fund focused on public equities, overseeing investment research, portfolio discussions, and organizational development.
+
+**Claremont Bitcoin Club** | Founder & President
+
+Founded a student organization focused on digital assets, financial technology, and professional development.
+
+## Resume
+
+[View My Resume (PDF)](files/resume.pdf)
