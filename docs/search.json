@@ -4,7 +4,7 @@
     "href": "pages/project/page01.html",
     "title": "This is the pages/project/page01.qmd title",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "This is a Quarto website. This is a file for a decidated page for your website. This file is only needed if you do not build your website as a single page in pages/index.qmd"
   },
   {
     "objectID": "pages/project/page01.html#this-is-a-header",
@@ -37,23 +37,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My Name",
+    "title": "Arman Dashti",
     "section": "",
-    "text": "I am a … blah blah"
+    "text": "I’m a senior at Claremont McKenna College studying Economics with a Data Science sequence. I’m interested in investing, financial markets, and understanding how businesses create value, particularly at the intersection of technology and finance.\nAt CMC, I’m the CEO of Sagehen Capital Management, a student-run investment fund, and the founder and president of the Claremont Bitcoin Club. I’ve also gained experience across fundamental investment research, quantitative investing, and corporate finance through internships at Point72, AQR Capital Management, and Churchill Downs.\nOutside of academics and investing, I enjoy playing soccer, traveling, and meeting people with different backgrounds and perspectives."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "My Name",
+    "title": "Arman Dashti",
     "section": "Education",
-    "text": "Education\nInstitution | City, State B.A in Degree | start - finish"
+    "text": "Education\nClaremont McKenna College | Claremont, California\nB.A. in Economics, Data Science sequence | Class of 2027"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "My Name",
-    "section": "Experience",
-    "text": "Experience\nOrganization A | Title | start - finish\nOrganization b | Title | start - finish"
+    "objectID": "index.html#professional-experience",
+    "href": "index.html#professional-experience",
+    "title": "Arman Dashti",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nAQR Capital Management | Specialized Investments Group Intern | Summer 2026\nWorked on research and analytical projects involving tax-aware equity strategies, portfolio constraints, and quantitative modeling.\nPoint72 | Market Intelligence Intern | Summer 2025\nConducted data-driven investment research across the industrials and technology sectors.\nChurchill Downs Incorporated | Corporate FP&A Intern | Summer 2024\nSupported financial planning, performance reporting, and investor relations analysis."
+  },
+  {
+    "objectID": "index.html#leadership-involvement",
+    "href": "index.html#leadership-involvement",
+    "title": "Arman Dashti",
+    "section": "Leadership & Involvement",
+    "text": "Leadership & Involvement\nSagehen Capital Management | Chief Executive Officer\nLead a student-managed investment fund focused on public equities, overseeing investment research, portfolio discussions, and organizational development.\nClaremont Bitcoin Club | Founder & President\nFounded a student organization focused on digital assets, financial technology, and professional development."
+  },
+  {
+    "objectID": "index.html#resume",
+    "href": "index.html#resume",
+    "title": "Arman Dashti",
+    "section": "Resume",
+    "text": "Resume\nView My Resume (PDF)"
   },
   {
     "objectID": "about.html",
@@ -74,7 +88,7 @@
     "href": "pages/project/index.html",
     "title": "This is the pages/project/index page title",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "This is a Quarto website. This pages/project/index.qmd file could very well contain all of your plots and your entire data story if your goal is present such a story linearly. If so, you can remove teh content needed for the pages/page01.qmd file and adjust your _quarto.yml file to remove the Drop down tab from the navbar (left). If your story is linear, just be careful to arrange your headers, plots, and written content in the order they should appear."
   },
   {
     "objectID": "pages/project/index.html#this-is-a-header",
