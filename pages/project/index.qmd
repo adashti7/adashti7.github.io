@@ -1,135 +1,17 @@
 ---
-title: "This is the pages/project/index page title"
+title: "Same Wealth, Different Markets"
+subtitle: "A data visualization project on economic development and stock market depth"
 ---
 
-This is a Quarto website. This pages/project/index.qmd file could very well contain all of your plots and your entire data story if your goal is present such a story linearly. If so, you can remove teh content needed for the pages/page01.qmd file and adjust your _quarto.yml file to remove the Drop down tab from the navbar (left). If your story is linear, just be careful to arrange your headers, plots, and written content in the order they should appear. 
+Why do economies with similar income levels have such different stock markets? This project uses World Bank data on 72 economies to establish the general relationship between income and stock market size, identify the economies that sit furthest from it, and examine what sets them apart.
 
-## This is a header
+[Read the project](page01.qmd){.btn .btn-primary}
 
-With content ... 
+![](figs/02-development-scatter.png){fig-alt="Scatter plot of GDP per capita against stock market capitalization as a percent of GDP, with the ten exceptions highlighted."}
 
-### And a sub-header 
+## About the project
 
-And more content ... 
-
-### And a code block 
-
-```{r, loading-libraries-and-functions}
-#| message: false
-#| warning: false
-#| include: false
-
-# libraries and functions
-library(here)
-library(ggplot2) 
-library(dplyr) 
-source(here("pages", "project", "src", "functions", "save_plot_as_png.R"))
-```
-
-
-```{r, getting-data}
-#| message: false
-#| warning: false
-#| include: false
-
-# Call script to read/clean/wrangle and write data for later use 
-# if cleaning is not required remove this source() call and ensure
-# that you adjust your {here} path to read in the raw data from 
-# pages/project/data/ (not the cleaned sub-directory)
-#
-# If you are using an API call for accessing your data, your 
-# data_cleaning.R script would involve accessing the data through
-# the api and then saving it locally for reproducibility (see project
-# handout). All data are required to be saved as .Rds files for 
-# preserve space and to maintain data types (which is not true for 
-# .csv files).
-
-source(here("pages", "project", "src", "data", "data_cleaning.R"))
-
-# read data/cleaned data (produced from the above cleaning script)
-mtcars <- readRDS(here("pages", "project", "data", "cleaned", "mtcars_cleaned.Rds"))
-```
-
-
-
-```{r, plot-mpg-by-hp}
-#| echo: false
-#| message: false
-#| warning: false
-
-# create plot
-# recommendation: always save plots as png so that you have an easily accessible
-# plot file available for other purpose (slide, sharing, etc.); extracting plots
-# from a webpage manually is more difficult 
-# then embed the png into the webpage 
-
-p <- 
-  mtcars |>
-  ggplot(mapping = aes(
-     x = hp, 
-     y = mpg
-     )) +
-  geom_point()
-```
-
-
-```{r, saveplot-mpg}
-#| message: false
-#| warning: false
-#| include: false
-
-# save the plot as a .png file using the save_plot_as_png()
-save_plot_as_png(
-  plot = p,
-  file_name = "mpg-by-hp.png"
-)
-```
-
-## Plot Header
-
-![Caption Text](/pages/project/figs/mpg-by-hp.png){width=80% fig-alt="This is alt-text for describing the plot for screen readers ..."}
-
-
-## Plot Explanation
-
-Blah, blah, blah ...
-
-
-```{r, plot-mpg-by-wt-for-cyl}
-#| echo: false
-#| message: false
-#| warning: false
-
-# create plot for subset
-p <- 
-  mtcars |>
-  # get only 4-6 cylinder cars
-  filter(cyl %in% 4:6) |>
-  ggplot(mapping = aes(
-    x = wt, 
-    y = mpg
-    )) +
-  geom_point()
-```
-
-<!-- SAVE PLOT AS PNG -->
-
-```{r, saveplot-cyl-subset}
-#| message: false
-#| warning: false
-#| include: false
-
-# save the plot as a .png file using the save_plot_as_png()
-save_plot_as_png(
-  plot = p,
-  file_name = "mpg-by-wt-for-cyl.png"
-)
-```
-
-## Plot Header
-
-![Caption Text](/pages/project/figs/mpg-by-wt-for-cyl.png){width=80% fig-alt="This is alt-text for describing the plot for screen readers ..."}
-
-## Plot Explanation
-
-Blah, blah, blah ...
+- **Data:** World Bank, World Development Indicators
+- **Tools:** R, ggplot2, and Quarto
+- **Course:** PSYC167 Data Visualization, Claremont McKenna College
+- **Code and data:** [GitHub repository](https://github.com/adashti7/adashti7.github.io/tree/main/pages/project)

@@ -1,7 +1,7 @@
 # _quarto.yml
 project:
   type: website
-  
+
   output-dir: docs
   render:
     - "index.qmd"  # index/landing page
@@ -11,8 +11,8 @@ project:
     - "!posts/"    # don't render blog posts
     #- "!pages/"   # to NOT render pages in this dir
     #- "**/*.qmd"  # to render all pages
-  
-  preview: 
+
+  preview:
     port: 1909
 
 website:
@@ -25,11 +25,11 @@ website:
   navbar:
     left: # left side of navbar
       - href: index.qmd               # index/home page
-        text: "My Name or Site Title" # home page title (instead of title:)
-      
+        text: "Arman Dashti"          # home page title (instead of title:)
+
       - href: now.qmd               # my now page
         text: Now                   # now page title
-      
+
       # optional about me; comment out it not desired
       - href: about.qmd             # about page
         text: About                 # about page title
@@ -37,21 +37,14 @@ website:
       # optional resume; comment out it not desired
       - href: files/resume.pdf      # pdf file
         text: Resume                 # resume page title
-        
-      # pages without a dropdown
-      - text: "Project Title"            # page text
-        href: pages/project/index.qmd    # projects listing page
-        
-      # pages with a dropdown
-      - text: "Project Title w/DD"       # page text
-        menu: 
-          - pages/project/page01.qmd     # the first page
-      # - pages/othername.qmd    # the second page
 
+      # data visualization project (single page, no dropdown)
+      - text: "Data Viz Project"         # page text
+        href: pages/project/page01.qmd   # the project page
 
-    right: # right side of navbar 
+    right: # right side of navbar
       - icon: github
-        href: https://mygithub.com/
+        href: https://github.com/adashti7
       - icon: linkedin
         href: https://www.linkedin.com/school/claremont-mckenna-college/posts/?feedView=all
       - icon: twitter-x
@@ -60,14 +53,14 @@ website:
         href: https://bsky.app/profile/cmc.edu
 #      - icon: rss
 #        href: blog.xml
-        
+
 # format and style
 format:
   html:
     theme:
-      light: 
-        - cosmo                 # base theme 
+      light:
+        - cosmo                 # base theme
         - styles/custom.scss    # custom scss
-      #dark: 
-      #  - cosmo                 # base theme 
+      #dark:
+      #  - cosmo                 # base theme
       #  - styles/custom.scss    # Same file, uses [data-theme="dark"]

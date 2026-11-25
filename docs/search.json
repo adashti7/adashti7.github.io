@@ -128,43 +128,15 @@
   {
     "objectID": "pages/project/index.html",
     "href": "pages/project/index.html",
-    "title": "This is the pages/project/index page title",
+    "title": "Same Wealth, Different Markets",
     "section": "",
-    "text": "This is a Quarto website. This pages/project/index.qmd file could very well contain all of your plots and your entire data story if your goal is present such a story linearly. If so, you can remove teh content needed for the pages/page01.qmd file and adjust your _quarto.yml file to remove the Drop down tab from the navbar (left). If your story is linear, just be careful to arrange your headers, plots, and written content in the order they should appear."
+    "text": "Why do economies with similar income levels have such different stock markets? This project uses World Bank data on 72 economies to establish the general relationship between income and stock market size, identify the economies that sit furthest from it, and examine what sets them apart.\nRead the project"
   },
   {
-    "objectID": "pages/project/index.html#this-is-a-header",
-    "href": "pages/project/index.html#this-is-a-header",
-    "title": "This is the pages/project/index page title",
-    "section": "This is a header",
-    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\n\n\nAnd a code block"
-  },
-  {
-    "objectID": "pages/project/index.html#plot-header",
-    "href": "pages/project/index.html#plot-header",
-    "title": "This is the pages/project/index page title",
-    "section": "Plot Header",
-    "text": "Plot Header\n\n\n\nCaption Text"
-  },
-  {
-    "objectID": "pages/project/index.html#plot-explanation",
-    "href": "pages/project/index.html#plot-explanation",
-    "title": "This is the pages/project/index page title",
-    "section": "Plot Explanation",
-    "text": "Plot Explanation\nBlah, blah, blah …"
-  },
-  {
-    "objectID": "pages/project/index.html#plot-header-1",
-    "href": "pages/project/index.html#plot-header-1",
-    "title": "This is the pages/project/index page title",
-    "section": "Plot Header",
-    "text": "Plot Header\n\n\n\nCaption Text"
-  },
-  {
-    "objectID": "pages/project/index.html#plot-explanation-1",
-    "href": "pages/project/index.html#plot-explanation-1",
-    "title": "This is the pages/project/index page title",
-    "section": "Plot Explanation",
-    "text": "Plot Explanation\nBlah, blah, blah …"
+    "objectID": "pages/project/index.html#about-the-project",
+    "href": "pages/project/index.html#about-the-project",
+    "title": "Same Wealth, Different Markets",
+    "section": "About the project",
+    "text": "About the project\n\nData: World Bank, World Development Indicators\nTools: R, ggplot2, and Quarto\nCourse: PSYC167 Data Visualization, Claremont McKenna College\nCode and data: GitHub repository"
   }
 ]
