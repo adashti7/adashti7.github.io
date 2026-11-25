@@ -2,26 +2,65 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Arman Dashti">
 
-<title>This is the pages/project/page01.qmd title</title>
+<title>Same Wealth, Different Markets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -39,10 +78,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1eef4d9d98f063e6f10a0853f97cbca5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3d4f225fc87b112029bb364144c425ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-project-title-wdd">    
         <li>
     <a class="dropdown-item" href="../../pages/project/page01.html">
- <span class="dropdown-text">This is the pages/project/page01.qmd title</span></a>
+ <span class="dropdown-text">Same Wealth, Different Markets</span></a>
   </li>  
     </ul>
   </li>
@@ -150,19 +189,59 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data-and-method" id="toc-data-and-method" class="nav-link" data-scroll-target="#data-and-method">Data and method</a></li>
+  <li><a href="#part-1-the-global-pattern" id="toc-part-1-the-global-pattern" class="nav-link" data-scroll-target="#part-1-the-global-pattern">Part 1: The global pattern</a>
+  <ul class="collapse">
+  <li><a href="#how-deep-are-stock-markets-around-the-world" id="toc-how-deep-are-stock-markets-around-the-world" class="nav-link" data-scroll-target="#how-deep-are-stock-markets-around-the-world">1. How deep are stock markets around the world?</a></li>
+  <li><a href="#do-richer-economies-have-deeper-stock-markets" id="toc-do-richer-economies-have-deeper-stock-markets" class="nav-link" data-scroll-target="#do-richer-economies-have-deeper-stock-markets">2. Do richer economies have deeper stock markets?</a></li>
+  <li><a href="#market-depth-within-each-income-group" id="toc-market-depth-within-each-income-group" class="nav-link" data-scroll-target="#market-depth-within-each-income-group">3. Market depth within each income group</a></li>
+  </ul></li>
+  <li><a href="#part-2-the-exceptions" id="toc-part-2-the-exceptions" class="nav-link" data-scroll-target="#part-2-the-exceptions">Part 2: The exceptions</a>
+  <ul class="collapse">
+  <li><a href="#which-economies-sit-furthest-from-the-pattern" id="toc-which-economies-sit-furthest-from-the-pattern" class="nav-link" data-scroll-target="#which-economies-sit-furthest-from-the-pattern">4. Which economies sit furthest from the pattern?</a></li>
+  <li><a href="#are-the-exceptions-persistent-or-recent" id="toc-are-the-exceptions-persistent-or-recent" class="nav-link" data-scroll-target="#are-the-exceptions-persistent-or-recent">5. Are the exceptions persistent or recent?</a></li>
+  </ul></li>
+  <li><a href="#part-3-the-financial-systems-behind-the-differences" id="toc-part-3-the-financial-systems-behind-the-differences" class="nav-link" data-scroll-target="#part-3-the-financial-systems-behind-the-differences">Part 3: The financial systems behind the differences</a>
+  <ul class="collapse">
+  <li><a href="#stock-markets-and-bank-lending" id="toc-stock-markets-and-bank-lending" class="nav-link" data-scroll-target="#stock-markets-and-bank-lending">6. Stock markets and bank lending</a></li>
+  <li><a href="#how-many-companies-are-listed" id="toc-how-many-companies-are-listed" class="nav-link" data-scroll-target="#how-many-companies-are-listed">7. How many companies are listed?</a></li>
+  <li><a href="#how-actively-are-the-markets-traded" id="toc-how-actively-are-the-markets-traded" class="nav-link" data-scroll-target="#how-actively-are-the-markets-traded">8. How actively are the markets traded?</a></li>
+  </ul></li>
+  <li><a href="#part-4-putting-the-differences-together" id="toc-part-4-putting-the-differences-together" class="nav-link" data-scroll-target="#part-4-putting-the-differences-together">Part 4: Putting the differences together</a>
+  <ul class="collapse">
+  <li><a href="#then-and-now" id="toc-then-and-now" class="nav-link" data-scroll-target="#then-and-now">9. Then and now</a></li>
+  <li><a href="#financial-system-profiles-of-the-exceptions" id="toc-financial-system-profiles-of-the-exceptions" class="nav-link" data-scroll-target="#financial-system-profiles-of-the-exceptions">10. Financial-system profiles of the exceptions</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#data-notes-and-limitations" id="toc-data-notes-and-limitations" class="nav-link" data-scroll-target="#data-notes-and-limitations">Data notes and limitations</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">This is the pages/project/page01.qmd title</h1>
+<h1 class="title">Same Wealth, Different Markets</h1>
+<p class="subtitle lead">Exploring the Relationship Between Economic Development and Public Equity Market Depth</p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Arman Dashti </p>
+          </div>
+  </div>
     
   
     
@@ -173,23 +252,668 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website. This is a file for a decidated page for your website. This file is only needed if you do not build your website as a single page in pages/index.qmd</p>
-<section id="this-is-a-header" class="level2">
-<h2 class="anchored" data-anchor-id="this-is-a-header">This is a header</h2>
-<p>With content …</p>
-<section id="and-a-sub-header" class="level3">
-<h3 class="anchored" data-anchor-id="and-a-sub-header">And a sub-header</h3>
-<p>And more content …</p>
-<p>along with full URL links <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a> or labelled <a href="https://cmc.edu">Claremont McKenna College</a> links.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>A country’s stock market is often treated as a scoreboard for its economy. If that were accurate, economies at similar income levels would have stock markets of similar size. In 2023, the companies listed in Hong Kong were worth roughly ten times the territory’s annual economic output. In Czechia, also a high-income economy, they were worth about a tenth of it.</p>
+<p>This project asks why economies with comparable levels of economic development have such different public stock markets. The main measure is market capitalization as a percentage of GDP: the combined value of all domestic companies listed on an economy’s stock exchange, divided by the value of everything that economy produces in a year. A higher number means a deeper stock market relative to the size of the economy.</p>
+<p>The project has four parts. Part 1 establishes the general pattern between income and stock market depth. Part 2 identifies the economies that sit furthest from that pattern. Part 3 looks at bank lending, the number of listed companies, and trading activity for clues about what sets those economies apart. Part 4 brings the evidence together. This is an exploratory look at World Bank data. It describes patterns and does not claim to prove what causes them.</p>
 </section>
-<section id="and-a-code-block" class="level3">
-<h3 class="anchored" data-anchor-id="and-a-code-block">And a code block</h3>
-<!-- SAVE PLOT AS PNG -->
+<section id="data-and-method" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-method">Data and method</h2>
+<ul>
+<li><strong>Source.</strong> World Bank, World Development Indicators, retrieved with the <code>WDI</code> R package and saved locally so the page does not depend on a live connection. The download and cleaning scripts are in <code>pages/project/src/data/</code>.</li>
+<li><strong>Sample.</strong> Individual economies only. World Bank groupings such as “World” or “High income” are removed. Only economies whose stock exchange data reaches the World Bank appear here, so an economy missing from a chart has no data. That is different from having no stock market.</li>
+<li><strong>Reference year.</strong> 2023, the most recent year in which the number of economies with data is close to its peak (72 economies).</li>
+<li><strong>Expected market size.</strong> A straight line fitted to market capitalization (% of GDP) against GDP per capita, with both on logarithmic scales, estimated separately for each year. Each economy’s ratio is its actual market size divided by the size the line predicts for its income. A ratio of 2× means twice as deep as expected. The line is a yardstick for comparison. It makes no causal claim, and “below expected” does not mean a worse financial system.</li>
+<li><strong>Exceptions.</strong> The 5 highest and 5 lowest ratios in 2023, among economies with at least 15 years of data. The rule was set before looking at which economies it would pick.</li>
+</ul>
+</section>
+<section id="part-1-the-global-pattern" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-the-global-pattern">Part 1: The global pattern</h2>
+<section id="how-deep-are-stock-markets-around-the-world" class="level3">
+<h3 class="anchored" data-anchor-id="how-deep-are-stock-markets-around-the-world">1. How deep are stock markets around the world?</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>median_market_cap <span class="ot">&lt;-</span> <span class="fu">median</span>(reference_data<span class="sc">$</span>market_cap_gdp)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>plot_distribution <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(reference_data, <span class="fu">aes</span>(<span class="at">x =</span> market_cap_gdp)) <span class="sc">+</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">18</span>, <span class="at">fill =</span> project_colors[[<span class="st">"muted"</span>]], <span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">xintercept =</span> median_market_cap,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> median_market_cap, <span class="at">y =</span> <span class="cn">Inf</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="fu">paste0</span>(<span class="st">"  Median: "</span>, <span class="fu">round</span>(median_market_cap), <span class="st">"% of GDP"</span>),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">vjust =</span> <span class="fl">1.6</span>, <span class="at">size =</span> <span class="fl">3.5</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_log10</span>(<span class="at">breaks =</span> pct_breaks, <span class="at">labels =</span> label_pct) <span class="sc">+</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>))) <span class="sc">+</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Stock market size relative to the economy"</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Market capitalization of listed domestic companies, % of GDP, "</span>, reference_year,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">". Each labeled step along the axis is roughly a tripling."</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Market capitalization (% of GDP, log scale)"</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Number of economies"</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(source_note, <span class="st">" "</span>, n_reference, <span class="st">" economies."</span>))</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_distribution, <span class="st">"01-distribution"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-01-distribution-1.png" class="img-fluid figure-img" alt="Histogram of stock market capitalization as a percent of GDP across economies, on a logarithmic axis, with a dashed line at the median." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Each bar counts the economies whose stock market falls in a given size range. The typical economy has a stock market worth about a third of its annual output (the median is 32% of GDP), and roughly two-thirds of the 72 economies fall between 10% and 100%. The extremes are far apart. The smallest markets are worth about 1% of GDP and the largest about 1,000%, a thousand-fold difference. The axis uses a log scale so that both ends are visible, which means each labeled step is roughly a tripling. Values above 100% are possible because market capitalization is the total value investors place on companies, which reflects many years of expected profits, while GDP counts a single year of output.</p>
+</section>
+<section id="do-richer-economies-have-deeper-stock-markets" class="level3">
+<h3 class="anchored" data-anchor-id="do-richer-economies-have-deeper-stock-markets">2. Do richer economies have deeper stock markets?</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>plot_development <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(reference_data, <span class="fu">aes</span>(<span class="at">x =</span> gdp_per_capita, <span class="at">y =</span> market_cap_gdp)) <span class="sc">+</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">formula =</span> y <span class="sc">~</span> x, <span class="at">se =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]], <span class="at">linewidth =</span> <span class="fl">0.6</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> pattern_group), <span class="at">size =</span> <span class="fl">2.6</span>, <span class="at">alpha =</span> <span class="fl">0.85</span>) <span class="sc">+</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> selected_reference,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">label =</span> economy),</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]], <span class="at">size =</span> <span class="fl">3.3</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">min.segment.length =</span> <span class="dv">0</span>, <span class="at">box.padding =</span> <span class="fl">0.4</span>, <span class="at">seed =</span> <span class="dv">167</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_log10</span>(</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">1000</span>, <span class="dv">3000</span>, <span class="dv">10000</span>, <span class="dv">30000</span>, <span class="dv">100000</span>),</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_dollar</span>(<span class="at">accuracy =</span> <span class="dv">1</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> pct_breaks, <span class="at">labels =</span> label_pct) <span class="sc">+</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> group_colors) <span class="sc">+</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Economic development and stock market depth"</span>,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Each dot is one economy in "</span>, reference_year,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">". The line shows the market size expected at each income level."</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"GDP per capita (PPP, constant 2021 international $, log scale)"</span>,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Market capitalization (% of GDP, log scale)"</span>,</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(source_note, <span class="st">" "</span>, n_reference, <span class="st">" economies."</span>))</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_development, <span class="st">"02-development-scatter"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-02-development-scatter-1.png" class="img-fluid figure-img" alt="Scatter plot of GDP per capita against stock market capitalization as a percent of GDP, both on logarithmic axes, with a fitted line and the selected exceptions labeled." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Each dot is an economy, placed by its income per person (left to right) and its stock market depth (bottom to top). The line slopes upward, so richer economies do tend to have deeper stock markets. An economy that is ten times richer is expected to have a market about three times deeper relative to its GDP. The pattern is loose, though. Among economies with incomes between roughly $45,000 and $65,000 per person, market depth runs from about 10% of GDP in Czechia to about 1,000% in Hong Kong. The colored dots are the ten exceptions examined in the rest of the project: blue for markets much larger than the line predicts, orange for markets much smaller.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># How strong is the pattern, and does one extreme market drive it?</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>baseline_check <span class="ot">&lt;-</span> <span class="cf">function</span>(data, sample_label) {</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  fit <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="fu">log10</span>(market_cap_gdp) <span class="sc">~</span> <span class="fu">log10</span>(gdp_per_capita), <span class="at">data =</span> data)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sample      =</span> sample_label,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">Economies   =</span> <span class="fu">nrow</span>(data),</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Slope       =</span> <span class="fu">round</span>(<span class="fu">coef</span>(fit)[[<span class="dv">2</span>]], <span class="dv">2</span>),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">R squared</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">round</span>(<span class="fu">summary</span>(fit)<span class="sc">$</span>r.squared, <span class="dv">2</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>largest_market <span class="ot">&lt;-</span> reference_data <span class="sc">|&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(market_cap_gdp, <span class="at">n =</span> <span class="dv">1</span>, <span class="at">with_ties =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="fu">bind_rows</span>(</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">baseline_check</span>(reference_data, <span class="st">"All economies"</span>),</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">baseline_check</span>(</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(reference_data, iso3c <span class="sc">!=</span> largest_market<span class="sc">$</span>iso3c),</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste</span>(<span class="st">"Excluding"</span>, largest_market<span class="sc">$</span>economy)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Sample</th>
+<th style="text-align: right;">Economies</th>
+<th style="text-align: right;">Slope</th>
+<th style="text-align: right;">R squared</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">All economies</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">0.46</td>
+<td style="text-align: right;">0.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Excluding Hong Kong</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Income level accounts for only about 12% of the differences in market depth across economies (an R squared of 0.12), which leaves most of the variation unexplained. Removing Hong Kong, the largest market, barely changes the result, so the weak pattern is not the product of one extreme case.</p>
+</section>
+<section id="market-depth-within-each-income-group" class="level3">
+<h3 class="anchored" data-anchor-id="market-depth-within-each-income-group">3. Market depth within each income group</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>income_data <span class="ot">&lt;-</span> reference_data <span class="sc">|&gt;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(income_group)) <span class="sc">|&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(income_group) <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">income_label =</span> <span class="fu">paste0</span>(</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>      income_group, <span class="st">"</span><span class="sc">\n</span><span class="st">("</span>, <span class="fu">n</span>(), <span class="fu">if_else</span>(<span class="fu">n</span>() <span class="sc">==</span> <span class="dv">1</span>, <span class="st">" economy)"</span>, <span class="st">" economies)"</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">income_label =</span> <span class="fu">reorder</span>(income_label, <span class="fu">as.integer</span>(income_group)))</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>plot_income <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(income_data, <span class="fu">aes</span>(<span class="at">x =</span> income_label, <span class="at">y =</span> market_cap_gdp)) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">outlier.shape =</span> <span class="cn">NA</span>, <span class="at">width =</span> <span class="fl">0.5</span>,</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> project_colors[[<span class="st">"muted"</span>]], <span class="at">fill =</span> <span class="st">"#F4F4F4"</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">color =</span> pattern_group),</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.12</span>, <span class="at">height =</span> <span class="dv">0</span>, <span class="at">seed =</span> <span class="dv">167</span>),</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">2.2</span>, <span class="at">alpha =</span> <span class="fl">0.85</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> pct_breaks, <span class="at">labels =</span> label_pct) <span class="sc">+</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> group_colors) <span class="sc">+</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Stock market depth by income group"</span>,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Market capitalization, % of GDP, "</span>, reference_year,</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">". Boxes span the middle half of each group."</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Market capitalization (% of GDP, log scale)"</span>,</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>      source_note,</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">" Income groups are the World Bank's current classification, not the one in force in "</span>,</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>      reference_year, <span class="st">"."</span></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_income, <span class="st">"03-income-boxplot"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-03-income-boxplot-1.png" class="img-fluid figure-img" alt="Box plots of stock market capitalization as a percent of GDP for each World Bank income group, with individual economies shown as dots." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This chart groups economies by the World Bank’s income classification. Each box covers the middle half of its group, the line inside the box is the median, and each dot is one economy. The typical lower-middle-income economy has a stock market worth about 13% of GDP, compared with a little over 40% for both upper-middle and high-income economies. The step up happens between the lower-middle and upper-middle groups, and the two richest groups look alike at the median. The spread inside each group is much larger than the gaps between groups. High-income economies alone range from about 2% of GDP to more than 1,000%. All five below-expected economies (orange) are high income, while the above-expected economies (blue) appear in three different income groups. Only one low-income economy has data, so that group cannot be compared.</p>
 </section>
 </section>
-<section id="plot-header" class="level2">
-<h2 class="anchored" data-anchor-id="plot-header">Plot Header</h2>
-<p><img src="../../pages/project/figs/mpg-by-wt-for-cyl.png" class="img-fluid" style="width:80.0%" alt="This is alt-text for describing the plot for screen readers ..."></p>
+<section id="part-2-the-exceptions" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-the-exceptions">Part 2: The exceptions</h2>
+<section id="which-economies-sit-furthest-from-the-pattern" class="level3">
+<h3 class="anchored" data-anchor-id="which-economies-sit-furthest-from-the-pattern">4. Which economies sit furthest from the pattern?</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>plot_exceptions <span class="ot">&lt;-</span> selected_reference <span class="sc">|&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">economy =</span> <span class="fu">reorder</span>(economy, market_cap_residual_log)) <span class="sc">|&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> market_cap_residual_log, <span class="at">y =</span> economy, <span class="at">fill =</span> pattern_group)) <span class="sc">+</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.65</span>) <span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]], <span class="at">linewidth =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">label =</span> <span class="fu">label_times</span>(market_cap_ratio),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>      <span class="at">hjust =</span> <span class="fu">if_else</span>(market_cap_residual_log <span class="sc">&gt;</span> <span class="dv">0</span>, <span class="sc">-</span><span class="fl">0.2</span>, <span class="fl">1.2</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">3.4</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">log10</span>(ratio_breaks_wide),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> <span class="fu">label_times</span>(ratio_breaks_wide),</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fl">0.14</span>)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> group_colors, <span class="at">guide =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Actual stock market size relative to expected"</span>,</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1× = exactly the size expected for the economy's income level, "</span>, reference_year, <span class="st">"."</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Actual ÷ expected market capitalization (log scale)"</span>,</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>      source_note, <span class="st">" The "</span>, n_each_side, <span class="st">" largest and "</span>, n_each_side,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">" smallest ratios among economies with at least "</span>, min_years_of_data, <span class="st">" years of data."</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.y =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_exceptions, <span class="st">"04-exceptions-bar"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-04-exceptions-bar-1.png" class="img-fluid figure-img" alt="Diverging horizontal bar chart of the ratio of actual to expected stock market size for the selected economies, centered on one." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The bars show how many times larger or smaller each stock market is than the size expected for its income level. Hong Kong’s market is about 20 times the expected size, Iran’s 16 times, South Africa’s 10 times, India’s about 6 times, and Saudi Arabia’s about 5 times. On the other side, the markets of Romania and Slovenia are about a third of the expected size, those of Czechia and Bulgaria about a fifth, and Bermuda’s about one-thirtieth.</p>
+<p>The two sides look different. The above-expected group is spread across East Asia, the Middle East, Africa, and South Asia, and nothing obvious ties it together. Four of the five below-expected economies are Central and Eastern European members of the European Union. The fifth, Bermuda, is a small island economy with very high income per person. Two economies with even smaller markets appear as gray dots near the bottom of chart 2. They are left out here because they have fewer than 15 years of data.</p>
+</section>
+<section id="are-the-exceptions-persistent-or-recent" class="level3">
+<h3 class="anchored" data-anchor-id="are-the-exceptions-persistent-or-recent">5. Are the exceptions persistent or recent?</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>selected_history <span class="ot">&lt;-</span> world_bank <span class="sc">|&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(pattern_group <span class="sc">!=</span> <span class="st">"Other economies"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>line_labels <span class="ot">&lt;-</span> selected_history <span class="sc">|&gt;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(market_cap_ratio)) <span class="sc">|&gt;</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(economy) <span class="sc">|&gt;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(year, <span class="at">n =</span> <span class="dv">1</span>, <span class="at">with_ties =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>plot_persistence <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  selected_history,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> market_cap_ratio, <span class="at">group =</span> economy, <span class="at">color =</span> pattern_group)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">1</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]], <span class="at">linewidth =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">0.8</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> line_labels,</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">label =</span> economy),</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]], <span class="at">size =</span> <span class="fl">3.2</span>,</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">direction =</span> <span class="st">"y"</span>, <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">nudge_x =</span> <span class="fl">0.8</span>,</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">segment.color =</span> project_colors[[<span class="st">"other"</span>]], <span class="at">segment.size =</span> <span class="fl">0.3</span>, <span class="at">seed =</span> <span class="dv">167</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> pattern_group, <span class="at">ncol =</span> <span class="dv">1</span>, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">2000</span>, <span class="dv">2025</span>, <span class="dv">5</span>),</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="fl">0.02</span>, <span class="fl">0.22</span>))</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> ratio_breaks, <span class="at">labels =</span> label_times) <span class="sc">+</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> group_colors, <span class="at">guide =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Distance from the pattern over time"</span>,</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Actual ÷ expected market size each year. The dark line at 1× marks </span><span class="sc">\"</span><span class="st">as expected.</span><span class="sc">\"</span><span class="st">"</span>,</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>      <span class="at">width =</span> <span class="dv">92</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Actual ÷ expected (log scale)"</span>,</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>      source_note,</span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">" The expected value is re-estimated each year from that year's sample. Gaps are years without data."</span></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_persistence, <span class="st">"05-persistence-lines"</span>, <span class="at">height =</span> <span class="fl">6.5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-05-persistence-lines-1.png" class="img-fluid figure-img" alt="Line chart of the ratio of actual to expected stock market size over time for the selected economies, in two panels for those above and below expected." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>These lines track the same ratio, actual market size divided by expected size, for each exception since 2000. The dark line at 1× means “exactly as expected.”</p>
+<p>Three of the above-expected economies have been there the whole time. Hong Kong, South Africa, and India have stayed several times above the expected size for more than two decades. The other two arrived recently. Saudi Arabia was close to or below the expected size until 2019, when its ratio jumped to about 5×. The timing matches the stock market listing of the state oil company Saudi Aramco in December 2019. Iran’s ratio climbed from about 1× in 2017 to more than 15× by 2020, stayed above 10× through 2023, and fell back to about 1× in 2024. A rise and fall that large is hard to read as a real change in a stock market. One possible cause is measurement, since Iran has had high inflation and more than one exchange rate, both of which can distort a ratio like this one. I treat Iran with caution for the rest of the project.</p>
+<p>Below the line, the four European economies came closest to the expected size around 2007, just before the global financial crisis, and have stayed well below it since, mostly between 0.2× and 0.6×. Bermuda is different. Its ratio drops sharply from 2020 to 2023 and recovers in 2024, which suggests that its extreme position in 2023 partly reflects an irregularity in the data.</p>
+</section>
+</section>
+<section id="part-3-the-financial-systems-behind-the-differences" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-the-financial-systems-behind-the-differences">Part 3: The financial systems behind the differences</h2>
+<section id="stock-markets-and-bank-lending" class="level3">
+<h3 class="anchored" data-anchor-id="stock-markets-and-bank-lending">6. Stock markets and bank lending</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>bank_data <span class="ot">&lt;-</span> reference_data <span class="sc">|&gt;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(bank_credit_gdp))</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>plot_bank <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(bank_data, <span class="fu">aes</span>(<span class="at">x =</span> bank_credit_gdp, <span class="at">y =</span> market_cap_gdp)) <span class="sc">+</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">xintercept =</span> <span class="fu">median</span>(bank_data<span class="sc">$</span>bank_credit_gdp),</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> project_colors[[<span class="st">"muted"</span>]]</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">yintercept =</span> <span class="fu">median</span>(bank_data<span class="sc">$</span>market_cap_gdp),</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> project_colors[[<span class="st">"muted"</span>]]</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> pattern_group), <span class="at">size =</span> <span class="fl">2.6</span>, <span class="at">alpha =</span> <span class="fl">0.85</span>) <span class="sc">+</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> <span class="fu">filter</span>(bank_data, pattern_group <span class="sc">!=</span> <span class="st">"Other economies"</span>),</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">label =</span> economy),</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]], <span class="at">size =</span> <span class="fl">3.3</span>,</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">min.segment.length =</span> <span class="dv">0</span>, <span class="at">box.padding =</span> <span class="fl">0.4</span>, <span class="at">seed =</span> <span class="dv">167</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">labels =</span> label_pct) <span class="sc">+</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> pct_breaks, <span class="at">labels =</span> label_pct) <span class="sc">+</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> group_colors) <span class="sc">+</span></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Bank lending and stock market depth"</span>,</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Each dot is one economy in "</span>, reference_year,</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">". Dotted lines mark the median economy on each axis."</span></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Bank credit to the private sector (% of GDP)"</span>,</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Market capitalization (% of GDP, log scale)"</span>,</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>      source_note, <span class="st">" "</span>, <span class="fu">nrow</span>(bank_data), <span class="st">" economies with both measures. "</span>,</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bank credit includes lending to households as well as businesses."</span></span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_bank, <span class="st">"06-bank-scatter"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-06-bank-scatter-1.png" class="img-fluid figure-img" alt="Scatter plot of bank credit to the private sector against stock market capitalization, both as a percent of GDP, with dotted lines at the medians and the selected exceptions labeled." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This chart compares each economy’s stock market with the amount its banks lend to households and businesses. A common idea is that economies rely on either banks or stock markets. If that were true here, economies with small stock markets would have large banking systems. The chart shows the opposite tendency. The dots rise from the lower left to the upper right, and every economy with bank credit above 100% of GDP also has a stock market larger than the median.</p>
+<p>The exceptions fit this reading. Romania, Slovenia, Czechia, and Bulgaria all have bank credit at or below the median, so their small stock markets are not offset by large banking systems. South Africa, Saudi Arabia, and India have bank credit close to the median but much larger stock markets than economies with similar lending. Hong Kong is at the top on both measures. Iran and Bermuda are missing because the World Bank has no bank credit figure for them in 2023.</p>
+</section>
+<section id="how-many-companies-are-listed" class="level3">
+<h3 class="anchored" data-anchor-id="how-many-companies-are-listed">7. How many companies are listed?</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>breadth_data <span class="ot">&lt;-</span> selected_reference <span class="sc">|&gt;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(listed_per_million)) <span class="sc">|&gt;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">economy =</span> <span class="fu">reorder</span>(economy, listed_per_million))</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>median_listed <span class="ot">&lt;-</span> <span class="fu">median</span>(reference_data<span class="sc">$</span>listed_per_million, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>plot_breadth <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  breadth_data,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> listed_per_million, <span class="at">y =</span> economy, <span class="at">color =</span> pattern_group)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">xintercept =</span> median_listed,</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> project_colors[[<span class="st">"muted"</span>]]</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">0</span>, <span class="at">xend =</span> listed_per_million, <span class="at">yend =</span> economy),</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">linewidth =</span> <span class="fl">0.9</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(<span class="st">"   "</span>, <span class="fu">label_value</span>(listed_per_million))),</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="fl">3.3</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.12</span>))) <span class="sc">+</span></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> group_colors) <span class="sc">+</span></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Listed companies relative to population"</span>,</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Listed domestic companies per million people, "</span>, reference_year,</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">". Dotted line: median of all economies ("</span>, <span class="fu">label_value</span>(median_listed), <span class="st">")."</span></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Listed domestic companies per million people"</span>,</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(source_note)</span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.y =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_breadth, <span class="st">"07-breadth-lollipop"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-07-breadth-lollipop-1.png" class="img-fluid figure-img" alt="Lollipop chart of listed domestic companies per million people for the selected economies, with a dotted line at the median of all economies." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This chart counts listed companies per million residents to see whether a large stock market also means many listed companies. It does not. India has thousands of listed companies, but across 1.4 billion people that comes to only 1.65 per million, the lowest of the ten. South Africa is also well below the median of 8.6. Both have stock markets far larger than expected, so their size comes from the value of the companies and not from how many there are.</p>
+<p>The reverse also happens. Bulgaria has about 32 listed companies per million people, almost four times the median, and one of the smallest markets in the sample, which points to many very small listings. Hong Kong is the only economy that is high on both size and breadth. Bermuda’s figure is inflated by its very small population: 155 per million works out to only about ten companies.</p>
+</section>
+<section id="how-actively-are-the-markets-traded" class="level3">
+<h3 class="anchored" data-anchor-id="how-actively-are-the-markets-traded">8. How actively are the markets traded?</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>trading_data <span class="ot">&lt;-</span> selected_reference <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(trading_to_market_cap)) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">economy =</span> <span class="fu">reorder</span>(economy, trading_to_market_cap))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>median_trading <span class="ot">&lt;-</span> <span class="fu">median</span>(reference_data<span class="sc">$</span>trading_to_market_cap, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>plot_trading <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  trading_data,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> trading_to_market_cap, <span class="at">y =</span> economy, <span class="at">fill =</span> pattern_group)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.65</span>) <span class="sc">+</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">xintercept =</span> median_trading,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(<span class="st">" "</span>, <span class="fu">label_pct</span>(<span class="fu">signif</span>(trading_to_market_cap, <span class="dv">2</span>)))),</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="fl">3.3</span>, <span class="at">color =</span> project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">labels =</span> label_pct, <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.12</span>))) <span class="sc">+</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> group_colors) <span class="sc">+</span></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trading activity relative to market size"</span>,</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Value of shares traded during "</span>, reference_year,</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">" as a % of market capitalization. Dotted line: median of all economies ("</span>,</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>      <span class="fu">label_pct</span>(<span class="fu">signif</span>(median_trading, <span class="dv">2</span>)), <span class="st">")."</span></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Shares traded in the year (% of market capitalization)"</span>,</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>      source_note,</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">" Market capitalization is a year-end level and trading is a yearly total, so this is a rough gauge of activity."</span></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.y =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_trading, <span class="st">"08-trading-bar"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-08-trading-bar-1.png" class="img-fluid figure-img" alt="Horizontal bar chart of the yearly value of shares traded as a percent of stock market capitalization for the selected economies, with a dotted line at the median of all economies." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Size and activity are different things. This chart shows the value of shares traded during 2023 as a percentage of each market’s total value, a rough gauge of how actively a market is used. Hong Kong (57%) and India (45%) are large and heavily traded. Saudi Arabia stands out for the opposite reason. Its market is nearly five times the expected size, but trading is only 11% of its value, right at the median for all economies. That fits a market whose value is concentrated in a company that is mostly owned by the state, because shares held by a government rarely change hands.</p>
+<p>The below-expected markets are mostly quiet as well as small. In Slovenia and Bulgaria, only about 3% of the market’s value traded during the year. Czechia is the one member of that group above the median.</p>
+</section>
+</section>
+<section id="part-4-putting-the-differences-together" class="level2">
+<h2 class="anchored" data-anchor-id="part-4-putting-the-differences-together">Part 4: Putting the differences together</h2>
+<section id="then-and-now" class="level3">
+<h3 class="anchored" data-anchor-id="then-and-now">9. Then and now</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>change_data <span class="ot">&lt;-</span> world_bank <span class="sc">|&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    pattern_group <span class="sc">!=</span> <span class="st">"Other economies"</span>,</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    year <span class="sc">%in%</span> <span class="fu">c</span>(comparison_year, reference_year)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">period =</span> <span class="fu">if_else</span>(year <span class="sc">==</span> comparison_year, <span class="st">"start_value"</span>, <span class="st">"end_value"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(economy, pattern_group, period, market_cap_gdp) <span class="sc">|&gt;</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> period, <span class="at">values_from =</span> market_cap_gdp) <span class="sc">|&gt;</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(start_value), <span class="sc">!</span><span class="fu">is.na</span>(end_value), start_value <span class="sc">&gt;</span> <span class="dv">0</span>, end_value <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">economy =</span> <span class="fu">reorder</span>(economy, end_value))</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>plot_change <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(change_data, <span class="fu">aes</span>(<span class="at">y =</span> economy, <span class="at">color =</span> pattern_group)) <span class="sc">+</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> start_value, <span class="at">xend =</span> end_value, <span class="at">yend =</span> economy),</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> project_colors[[<span class="st">"other"</span>]], <span class="at">linewidth =</span> <span class="fl">1.2</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> start_value), <span class="at">shape =</span> <span class="dv">21</span>, <span class="at">fill =</span> <span class="st">"white"</span>, <span class="at">size =</span> <span class="fl">3.5</span>, <span class="at">stroke =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> end_value), <span class="at">size =</span> <span class="fl">3.8</span>) <span class="sc">+</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_log10</span>(<span class="at">breaks =</span> pct_breaks, <span class="at">labels =</span> label_pct) <span class="sc">+</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> group_colors) <span class="sc">+</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="fu">paste0</span>(<span class="st">"Stock market depth in "</span>, comparison_year, <span class="st">" and "</span>, reference_year),</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Hollow circle = "</span>, comparison_year, <span class="st">", filled circle = "</span>, reference_year,</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">". Market capitalization, % of GDP."</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Market capitalization (% of GDP, log scale)"</span>,</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>      source_note, <span class="st">" Only economies with data in both years. "</span>,</span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Changes reflect share prices as well as new listings."</span></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid.major.y =</span> <span class="fu">element_blank</span>())</span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_change, <span class="st">"09-change-dumbbell"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-09-change-dumbbell-1.png" class="img-fluid figure-img" alt="Dumbbell chart comparing stock market capitalization as a percent of GDP in an earlier year and the reference year for the selected economies." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The hollow circle is each economy’s stock market depth in 2005 and the filled circle is its depth in 2023. Every above-expected economy moved to the right. Hong Kong, South Africa, and India all deepened, and Iran shows the largest increase, with the caution noted earlier. Every below-expected economy moved to the left. The four European economies went from roughly 16% to 25% of GDP in 2005 to roughly 8% to 15% in 2023, and Bermuda fell the furthest.</p>
+<p>The two groups have moved apart over eighteen years. The exceptions are not converging toward the general pattern. Part of the change reflects share prices, because a rising stock market raises this measure even when no company sells new shares. Saudi Arabia is absent because it has no figure for 2005.</p>
+</section>
+<section id="financial-system-profiles-of-the-exceptions" class="level3">
+<h3 class="anchored" data-anchor-id="financial-system-profiles-of-the-exceptions">10. Financial-system profiles of the exceptions</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>indicator_labels <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">market_cap_gdp        =</span> <span class="st">"Market size</span><span class="sc">\n</span><span class="st">(% of GDP)"</span>,</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">bank_credit_gdp       =</span> <span class="st">"Bank credit</span><span class="sc">\n</span><span class="st">(% of GDP)"</span>,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">stocks_traded_gdp     =</span> <span class="st">"Yearly trading</span><span class="sc">\n</span><span class="st">(% of GDP)"</span>,</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">trading_to_market_cap =</span> <span class="st">"Trading vs.</span><span class="sc">\n</span><span class="st">market size (%)"</span>,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">listed_per_million    =</span> <span class="st">"Listed companies</span><span class="sc">\n</span><span class="st">per million people"</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>profile_data <span class="ot">&lt;-</span> reference_data <span class="sc">|&gt;</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(economy, pattern_group, market_cap_ratio, <span class="fu">all_of</span>(<span class="fu">names</span>(indicator_labels))) <span class="sc">|&gt;</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">all_of</span>(<span class="fu">names</span>(indicator_labels)),</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"indicator"</span>,</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"value"</span></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Rank every economy on each measure (0 = lowest, 100 = highest) BEFORE</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># narrowing to the exceptions, so color compares them with the full sample.</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(indicator) <span class="sc">|&gt;</span></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">percentile =</span> <span class="fu">percent_rank</span>(value) <span class="sc">*</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(pattern_group <span class="sc">!=</span> <span class="st">"Other economies"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">indicator_label =</span> <span class="fu">factor</span>(</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">unname</span>(indicator_labels[indicator]),</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>      <span class="at">levels =</span> <span class="fu">unname</span>(indicator_labels)</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">economy =</span> <span class="fu">reorder</span>(economy, market_cap_ratio),</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">value_label =</span> <span class="fu">case_when</span>(</span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(value)                      <span class="sc">~</span> <span class="st">"no data"</span>,</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>      indicator <span class="sc">==</span> <span class="st">"listed_per_million"</span> <span class="sc">~</span> <span class="fu">label_value</span>(value, <span class="at">digits =</span> <span class="dv">2</span>),</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span>                              <span class="sc">~</span> <span class="fu">label_pct</span>(<span class="fu">signif</span>(value, <span class="dv">2</span>))</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">text_color =</span> <span class="fu">if_else</span>(</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>      <span class="sc">!</span><span class="fu">is.na</span>(percentile) <span class="sc">&amp;</span> <span class="fu">abs</span>(percentile <span class="sc">-</span> <span class="dv">50</span>) <span class="sc">&gt;</span> <span class="dv">38</span>,</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">"white"</span>,</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>      project_colors[[<span class="st">"ink"</span>]]</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>plot_profile <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(profile_data, <span class="fu">aes</span>(<span class="at">x =</span> indicator_label, <span class="at">y =</span> economy, <span class="at">fill =</span> percentile)) <span class="sc">+</span></span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">"white"</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> value_label, <span class="at">color =</span> text_color), <span class="at">size =</span> <span class="fl">3.2</span>) <span class="sc">+</span></span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(pattern_group <span class="sc">~</span> ., <span class="at">scales =</span> <span class="st">"free_y"</span>, <span class="at">space =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">position =</span> <span class="st">"top"</span>) <span class="sc">+</span></span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_identity</span>() <span class="sc">+</span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient2</span>(</span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">low =</span> project_colors[[<span class="st">"below"</span>]], <span class="at">mid =</span> <span class="st">"#F4F4F4"</span>, <span class="at">high =</span> project_colors[[<span class="st">"above"</span>]],</span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">midpoint =</span> <span class="dv">50</span>, <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">100</span>), <span class="at">na.value =</span> <span class="st">"white"</span>,</span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">50</span>, <span class="dv">100</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Lowest rank"</span>, <span class="st">"Median"</span>, <span class="st">"Highest rank"</span>),</span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a>    <span class="at">name =</span> <span class="cn">NULL</span></span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Financial-system profiles of the exceptions"</span>,</span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(</span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Numbers are actual values in "</span>, reference_year,</span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a>      <span class="st">". Color shows rank among all "</span>, n_reference, <span class="st">" economies on that measure."</span></span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a>    ), <span class="at">width =</span> <span class="dv">92</span>),</span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="fu">wrap_text</span>(source_note)</span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid        =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.key.width  =</span> <span class="fu">unit</span>(<span class="fl">2.2</span>, <span class="st">"cm"</span>),</span>
+<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.key.height =</span> <span class="fu">unit</span>(<span class="fl">0.3</span>, <span class="st">"cm"</span>),</span>
+<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x       =</span> <span class="fu">element_text</span>(<span class="at">lineheight =</span> <span class="fl">0.95</span>)</span>
+<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a><span class="fu">show_and_save</span>(plot_profile, <span class="st">"10-profile-heatmap"</span>, <span class="at">height =</span> <span class="dv">6</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="page01_files/figure-html/viz-10-profile-heatmap-1.png" class="img-fluid figure-img" alt="Heatmap with the selected economies as rows and five financial-system measures as columns. Color shows each economy's rank among all economies, and each cell prints the actual value." width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This chart puts five measures side by side for the ten exceptions. The number in each cell is the actual value, and the color shows where that value ranks among all 72 economies. Blue is above the median and orange is below.</p>
+<p>Two columns separate the groups cleanly. Market size does so by design, and yearly trading follows it: every above-expected economy is above the median on trading, and every below-expected economy is below it. Two columns do not separate the groups. Bank credit is close to the median for most economies on both sides, apart from Hong Kong at the top and Romania near the bottom. Listed companies per person runs against expectations, with India, South Africa, and Iran below the median and Bulgaria and Bermuda above it. Hong Kong is the only economy that is blue across its entire row. Cells marked “no data” are missing values, not zeros.</p>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>Do economies at the same level of development have similar stock markets? In this data they do not. Richer economies tend to have deeper stock markets, but income per person accounts for only about 12% of the differences across the 72 economies with data. Most of what makes one stock market large and another small has to do with something other than how rich the economy is.</p>
+<p>The economies above the pattern got there in different ways. Hong Kong is a financial center that leads on every measure and whose exchange serves companies from well beyond its own small economy. South Africa and India have been far above the pattern for more than twenty years with ordinary levels of bank lending and few listed companies per person, which points to long-established markets built around large companies. Saudi Arabia’s position dates from a single event, the 2019 listing of Saudi Aramco, and its low trading suggests a market that is larger on paper than in daily use. Iran’s swings are too abrupt to take at face value. The same headline number describes four or five different situations.</p>
+<p>The economies below the pattern are more alike. Four of the five are Central and Eastern European members of the European Union, all of which re-established their stock exchanges around 1990 or later. Their stock markets are small, thinly traded, and have shrunk relative to their economies since 2005. Their banking systems are not unusually large, so the idea that banks fill the gap left by a small stock market does not hold for them here. Across all economies, bank lending and stock market size tend to rise together. Bermuda’s position rests on four unusual years of data and should not be over-read.</p>
+<p>This project cannot say why these differences exist. A small stock market is not a sign of a weaker financial system, because companies can also be financed by banks, private investors, or foreign parent companies, and none of those appear in this measure. What the data does show is that market capitalization relative to GDP is often quoted as if it measured one thing, when it can describe very different financial systems. For me, the exceptions turned out to be more informative than the average.</p>
+</section>
+<section id="data-notes-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="data-notes-and-limitations">Data notes and limitations</h2>
+<ul>
+<li>Missing values are left missing and are never treated as zero. The number of economies differs from chart to chart because each measure is available for a different set of economies.</li>
+<li>Only 72 of the world’s more than 200 economies have stock market data in 2023. Economies without a stock exchange, or whose exchange does not report to the World Bank’s source, are not represented.</li>
+<li>Market capitalization moves with share prices. It is not the amount of money companies have raised.</li>
+<li>Bank credit includes household borrowing such as mortgages, not only loans to businesses.</li>
+<li>The expected market size depends on the model and on which economies have data in a given year. A different model or sample would produce somewhat different ratios.</li>
+<li>Income groups are the World Bank’s current classification, applied to every year.</li>
+</ul>
 
 
 </section>
